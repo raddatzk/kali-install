@@ -18,6 +18,8 @@ export PATH="/home/kali/bin:$PATH"
 
 export PATH="/home/kali/.local/bin:$PATH"
 
+export EDITOR=vim
+
 alias -1='cd ..'
 alias -2='cd ../..'
 alias -3='cd ../../..'
