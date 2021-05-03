@@ -1,0 +1,32 @@
+COMPLETION_WAITING_DOTS=true
+
+ZSH_THEME="agnoster"
+
+plugins=(
+	git
+	zsh-autosuggestions
+	zsh-syntax-highlighting
+	docker
+	docker-compose
+)
+
+export ZSH="/home/kali/.oh-my-zsh"
+
+source $ZSH/oh-my-zsh.sh
+
+export PATH="/home/kali/bin:$PATH"
+
+export PATH="/home/kali/.local/bin:$PATH"
+
+alias -1='cd ..'
+alias -2='cd ../..'
+alias -3='cd ../../..'
+alias -4='cd ../../../..'
+alias -5='cd ../../../../..'
+alias -6='cd ../../../../../..'
+alias -7='cd ../../../../../../..'
+alias -8='cd ../../../../../../../..'
+alias -9='cd ../../../../../../../../..'
+
+alias open='xdg-open'
+alias cyberchef='open /home/kali/cyberchef/CyberChef_*.html'
